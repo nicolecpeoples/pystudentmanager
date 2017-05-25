@@ -6,12 +6,13 @@ class Student:
     school_name = "Washington Elementary"
 
     # Using self is the way we refer to our class from our class
-    def __init__(self, name, student_id=332):
+    def __init__(self, first_name, last_name, student_id=332):
         """
         :param name: string - student name
         :param student_id: int - optional student id
         """
-        self.name = name
+        self.first_name = first_name
+        self.last_name = last_name
         self.student_id = student_id
         students.append(self)
 
